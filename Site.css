@@ -1,2 +1,11 @@
 ﻿body {
 }
+
+#imgResize{
+    height:150px;
+    width:125px;
+}
+
+.guesthouse {
+    background-image: url('guest house and villa and pool.jpg');
+}
