@@ -101,3 +101,37 @@ img#modHouse{
     margin-left: 100px;
     margin-bottom: 20px;
 }
+
+/*Ammenities Header*/
+
+#row6{
+    text-align:center;
+    background-color:dimgrey;
+    color:white;
+}
+
+#patioPool {
+    background-image: url('patio pool.jpg');
+    background-size:cover;     
+ 
+}
+
+#cloudyPool {
+    background-image: url('cloudy daytime patio pool.jpg');
+    background-size:cover;
+}
+/*Ammenities*/
+
+/*div#row7.row{
+    height:800px
+}*/
+
+div#patioPool.jumbotron{
+    height:348px;
+    width:348px;
+}
+
+div#cloudyPool.jumbotron{
+    height:348px;
+    width:348px;
+}
