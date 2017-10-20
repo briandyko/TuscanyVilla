@@ -13,7 +13,7 @@ div.container{
     background-color:dimgrey;
 }
 
-.whitetext{
+.whiteText{
     color:white;
 }
 
@@ -30,7 +30,7 @@ div.jumbotron.guesthouse {
     
 }
 
-div#heightcorrect.col-md-3 {
+div#heightCorrect.col-md-3 {
     background-image: url('roadmap of tuscany.jpg');
     background-size:cover;
     height:372px;
@@ -64,3 +64,40 @@ div.mainsec.row{
     background-color:dimgrey;
     color:white;
 } 
+/*location one*/
+#snowyMountain {
+    height:175px;
+    width:300px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+
+}
+
+#row3 {
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.tinyLocations{
+    font-size:10px;
+   
+}
+
+/*Location 2*/
+
+img#modHouse{
+    height:175px;
+    width:300px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+
+}
+
+/*Location 3*/
+
+#vineyard{
+    height:175px;
+    width:300px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
