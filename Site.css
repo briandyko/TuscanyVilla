@@ -1,11 +1,66 @@
 ﻿body {
 }
-
-#imgResize{
-    height:150px;
-    width:125px;
+div.container{
+    margin-left:0px;
+    margin-right:0px;
+    padding-left:0px;
+    padding-right:0px;
 }
 
-.guesthouse {
+/*Navbar*/
+#navvy{
+    margin-bottom:0px;
+    background-color:dimgrey;
+}
+
+.whitetext{
+    color:white;
+}
+
+/*Jumbotron*/
+
+div.jumbotron.guesthouse {
     background-image: url('guest house and villa and pool.jpg');
+    height:372px;   
+    background-size: cover;
+    color: white;
+    text-align: center;   
+    margin-bottom: 0px;
+
+    
 }
+
+div#heightcorrect.col-md-3 {
+    background-image: url('roadmap of tuscany.jpg');
+    background-size:cover;
+    height:372px;
+    width:334px;
+
+}
+
+.pad {
+    padding-left:0px;
+    padding-right:0px;
+}
+
+/*petes formatting*/
+
+div#mainseccol1.col-md-9{
+    padding-left:0px;
+    padding-right:0px;
+}
+div.container-fluid{
+    padding-left:0px;
+    padding-right:0px;
+}
+div.mainsec.row{
+    width:1349px;
+}
+
+/*Bottom header*/
+
+#row2{
+    text-align:center;
+    background-color:dimgrey;
+    color:white;
+} 

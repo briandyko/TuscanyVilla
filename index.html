@@ -26,8 +26,9 @@
             </button>
             <a class="navbar-brand" href="#">Brand</a>
         </div>-->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
+    <div class="container-fluid">
+        <nav id="navvy" class="navbar">
+
             <!-- Brand and toggle get grouped for better mobile display -->
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -36,33 +37,45 @@
                 <span class="icon-bar"></span>
             </button>
             <!--<div class="navbar-header">-->
-            <a class="navbar-brand" href="#">Logo</a>
-        </div>
-        <div style="float:right">
-            <ul class="nav navbar-nav">
-                <li><a href="#locations">Locations</a></li>
-                <li><a href="#ammenities">Ammenities</a></li>
-                <li><a href="#reviews">Reviews</a></li>
-                <li><a href="#contacts">Contacts</a></li>
-            </ul>
-        </div>
-    </nav>
+            <a class="whitetext nav navbar-nav" href="#">Logo</a>
 
-
-    <!--JUMBOTRON-->
-    <div class="row">
-        <div class="col-md-9">
-            <div class="jumbotron guesthouse">  <!--need to turn mainSec into a different thing in the CSS. This is where I would put the background image, in the CSS. The HTML portion is the top part, and therefor the Text-->
-            
-                <h1>Italian Villa Baby!! </h1>
+            <div style="float:right">
+                <ul class="nav navbar-nav">
+                    <li><a class="whitetext" href="#locations">LOCATIONS</a></li>
+                    <li><a class="whitetext" href="#ammenities">AMMENITIES</a></li>
+                    <li><a class="whitetext" href="#reviews">REVIEWS</a></li>
+                    <li><a class="whitetext" href="#contacts">CONTACTS</a></li>
+                </ul>
             </div>
+        </nav>
+
+
+        <!--FIRST JUMBOTRON-->
+        <div class="row" id="mainsec">
+            <div class="col-md-9" id="mainseccol1">
+                <div class="jumbotron guesthouse">
+                    <!--need to turn mainSec into a different thing in the CSS. This is where I would put the background image, in the CSS. The HTML portion is the top part, and therefor the Text-->
+                    <h1>Tuscany Villa</h1>
+                    <h3>We specialize in relaxation.</h3>
+                </div>
+            </div>
+
+            <div class="col-md-3" id="heightcorrect">
+
+            </div>
+
         </div>
 
-        <div class="col-md-3"><img src="roadmap of tuscany.jpg" /></div>
+        <!--Bottom Row-->
+        <div class="row" id="row2">
+            <div class="col-md-12">
+                <p>LOCATIONS</p>
+                <p>Some places for you to go</p>
+            </div>
 
-    
+        </div>
+
     </div>
-  
 
 </body>
 </html>
