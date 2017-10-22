@@ -90,7 +90,10 @@ img#modHouse{
     width:300px;
     margin-left: 100px;
     margin-bottom: 20px;
+}
 
+#row4{
+    background-color:dimgrey;
 }
 
 /*Location 3*/
@@ -191,4 +194,12 @@ input#comment.form-control{
 
 button.btn.btn-xs{
    margin-left:320px;
+}
+
+/*Footer*/
+
+footer {
+    text-align:center;
+    background-color:dimgrey;   /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
+    color:white;
 }
