@@ -1,5 +1,8 @@
 ﻿body {
+      
 }
+
+
 div.container{
     margin-left:0px;
     margin-right:0px;
@@ -85,18 +88,23 @@ div.mainsec.row{
     color:white;
 } 
 /*location one*/
-#snowyMountain {
-    height:175px;
-    width:300px;
+
+#row3 {
     margin-left: 100px;
+    margin-top: 30px;
+    margin-right:30px;
+}
+
+
+#snowyMountain {
+    height:215px;
+    width:330px;
+    margin-left: 0px;               /*make this a class too*/
     margin-bottom: 20px;
 
 }
 
-#row3 {
-    margin-left: 50px;
-    margin-top: 70px;
-}
+
 
 .tinyLocations{
     font-size:10px;
@@ -105,23 +113,32 @@ div.mainsec.row{
 
 /*Location 2*/
 
+#row4{
+    background-color:dimgrey;
+    color:white;
+}
+
 img#modHouse{
     height:175px;
     width:300px;
-    margin-left: 100px;
+    margin-left: 100px;                /*make this a class too*/
     margin-bottom: 20px;
 }
 
-#row4{
-    background-color:dimgrey;
-}
+
 
 /*Location 3*/
 
-#vineyard{
-    height:175px;
-    width:300px;
+#row5 {
     margin-left: 100px;
+    margin-top: 30px;
+    margin-right:30px;
+}
+
+#vineyard {
+    height: 215px;
+    width: 330px;
+    margin-left: 0px;     /*make this a class too*/
     margin-bottom: 20px;
 }
 
@@ -222,4 +239,8 @@ footer {
     text-align:center;
     background-color:dimgrey;   /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
     color:white;
+}
+
+p,h1,h3{
+    font-family:'Saira Extra Condensed', sans-serif;
 }
