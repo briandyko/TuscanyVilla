@@ -49,7 +49,7 @@ div.jumbotron.guesthouse {
     color: white;
     text-align: center;   
     margin-bottom: 0px;
-
+    border-radius:0px;
     
 }
 
@@ -92,7 +92,7 @@ div.mainsec.row{
 #row3 {
     margin-left: 100px;
     margin-top: 30px;
-    margin-right:30px;
+    margin-right: 30px;
 }
 
 
@@ -103,8 +103,6 @@ div.mainsec.row{
     margin-bottom: 20px;
 
 }
-
-
 
 .tinyLocations{
     font-size:10px;
@@ -150,30 +148,85 @@ img#modHouse{
     color:white;
 }
 
+/*Ammenities Main*/
+
+/*First Row Ammenities-Row 7*/
+
+div#row7.row{
+    padding-top:50px;
+    padding-left:100px;
+    padding-right:100px;
+}
+
 #patioPool {
     background-image: url('patio pool.jpg');
-    background-size:cover;     
- 
+    background-size:cover;
+}
+
+div#patioPool.jumbotron{
+    height:348px;
+    width:348px;
+    border-radius:0px;
 }
 
 #cloudyPool {
     background-image: url('cloudy daytime patio pool.jpg');
     background-size:cover;
 }
-/*Ammenities*/
-
-/*div#row7.row{
-    height:800px
-}*/
-
-div#patioPool.jumbotron{
-    height:348px;
-    width:348px;
-}
 
 div#cloudyPool.jumbotron {
     height: 348px;
     width: 348px;
+    border-radius:0px;
+}
+
+/*Second Row Ammenities-Row 8*/
+
+div#row8.row{
+    padding-left:100px;
+    padding-right:100px;
+}
+
+#manyLamps {
+    background-image: url('many lamped bedroom.jpg');
+    background-size:cover;
+}
+
+div#manyLamps.jumbotron {
+    height: 348px;
+    width: 348px;
+    border-radius:0px;
+}
+
+/*Third Row Ammenities-Row 9*/
+
+div#row9.row{
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom:30px;
+}
+
+#lovelyOutdoor {
+    background-image: url('lovely outdoor dining table porch.jpg');
+    background-size:cover;
+}
+
+div#lovelyOutdoor.jumbotron {
+    height: 348px;
+    width: 348px;
+    border-radius:0px;
+}
+
+#veryStony {
+    background-image: url('very stony dining table porch.jpg');
+    background-size:cover;
+}
+
+
+div#veryStony.jumbotron {
+    height: 348px;
+    width: 348px;
+    border-radius:0px;
 }
 
 
