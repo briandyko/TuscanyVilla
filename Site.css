@@ -106,7 +106,7 @@ img#modHouse{
 
 #row6{
     text-align:center;
-    background-color:dimgrey;
+    background-color:dimgrey;     /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
     color:white;
 }
 
@@ -131,7 +131,64 @@ div#patioPool.jumbotron{
     width:348px;
 }
 
-div#cloudyPool.jumbotron{
-    height:348px;
-    width:348px;
+div#cloudyPool.jumbotron {
+    height: 348px;
+    width: 348px;
+}
+
+
+/*Reviews Carousel Header*/
+
+#row10{
+    text-align:center;
+    background-color:dimgrey;   /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
+    color:white;
+}
+
+    /*The Carousel itself*/
+
+.carousel-indicators li {
+    background-color:black;
+}
+
+.carousel-indicators .active{
+    background-color:black;
+}
+   
+ol.carousel-indicators{
+    height:50px;
+    width:50px;
+    margin-left:0px;
+    margin-bottom:0px;
+    bottom:0px;
+    /*background-color:black;*/
+}
+
+div#myCarousel.carousel.slide{
+    background-color:white;
+    height:150px;
+}
+
+.carousel{
+    background-color:white;
+}
+
+/*Contact form Header*/
+
+#row12{
+    text-align:center;
+    background-color:dimgrey;   /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
+    color:white;
+}
+
+/*Contact form Main*/
+
+input#comment.form-control{
+    padding-bottom:100px;
+    padding-right:215px;
+
+}
+
+button.btn.btn-xs{
+   margin-left:320px;
 }
