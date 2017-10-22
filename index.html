@@ -12,30 +12,32 @@
 <body>
 
     <div class="container-fluid">
-        <nav id="navvy" class="navbar">
-
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <!--<div class="navbar-header">-->
-            <a class="whiteText nav navbar-nav" href="#">Logo</a>
-
-            <div style="float:right">
-                <ul class="nav navbar-nav">
-                    <li><a class="whiteText" href="#locations">LOCATIONS</a></li>
-                    <li><a class="whiteText" href="#ammenities">AMMENITIES</a></li>
-                    <li><a class="whiteText" href="#reviews">REVIEWS</a></li>
-                    <li><a class="whiteText" href="#contacts">CONTACTS</a></li>
-                </ul>
+        <nav class="navbar navbar-static-top" id="navvy">
+            <div class="row" id="navRow">
+                <!--<div class="col-md-12">-->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>  <!--these are the slices of the hamburger, btw.-->
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <p>Logo</p>
+                    <div id="navbar" class="navbar-collapse collapse" style="float:right">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#locations">LOCATIONS</a></li>
+                            <li><a href="#ammenities">AMMENITITES</a></li>
+                            <li><a href="#reviews">REVIEWS</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
+                <!--</div>-->
             </div>
         </nav>
 
-
         <!--FIRST JUMBOTRON-->
+
         <div class="row" id="mainsec">
             <div class="col-md-9" id="mainseccol1">
                 <div class="jumbotron guesthouse">
@@ -300,7 +302,7 @@
             <footer>
                 <div>
                     <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
-                </div>                        
+                </div>
                 <p>Created by: Brian Dyko</p>
                 <p>Not at all copyrighted</p>
             </footer>
