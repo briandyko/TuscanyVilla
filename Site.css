@@ -111,7 +111,10 @@ div.mainsec.row{
 
 /*Location 2*/
 
-#row4{
+div#row4.row{
+    padding-top:30px;
+    padding-left:100px;
+    padding-right:30px;
     background-color:dimgrey;
     color:white;
 }
@@ -156,6 +159,8 @@ div#row7.row{
     padding-top:50px;
     padding-left:100px;
     padding-right:100px;
+    margin-right:0px;
+    margin-left:0px;
 }
 
 #patioPool {
@@ -185,6 +190,8 @@ div#cloudyPool.jumbotron {
 div#row8.row{
     padding-left:100px;
     padding-right:100px;
+    margin-right:0px;
+    margin-left:0px;
 }
 
 #manyLamps {
@@ -204,6 +211,8 @@ div#row9.row{
     padding-left:100px;
     padding-right:100px;
     padding-bottom:30px;
+    margin-right:0px;
+    margin-left:0px;
 }
 
 #lovelyOutdoor {
@@ -240,6 +249,12 @@ div#veryStony.jumbotron {
 
     /*The Carousel itself*/
 
+div.col-xs-12.col-sm-12.col-md-12.col-lg-12{
+    padding-left:0px;
+    padding-right:0px;
+    text-align:center;
+}
+
 .carousel-indicators li {
     background-color:black;
 }
@@ -254,7 +269,8 @@ ol.carousel-indicators{
     margin-left:0px;
     margin-bottom:0px;
     bottom:0px;
-    /*background-color:black;*/
+    left:665px;
+    
 }
 
 div#myCarousel.carousel.slide{
