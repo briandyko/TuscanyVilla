@@ -250,6 +250,7 @@ div#veryStony.jumbotron {
     /*The Carousel itself*/
 
 div.col-xs-12.col-sm-12.col-md-12.col-lg-12{
+    /*padding-top:70px;*/
     padding-left:0px;
     padding-right:0px;
     text-align:center;
@@ -292,14 +293,35 @@ div#myCarousel.carousel.slide{
 
 /*Contact form Main*/
 
+div#row13.row{
+    padding-top:30px;
+    padding-bottom:40px;
+    margin-left:100px;
+}
+
+input#name.form-control{
+    width:350px;
+    margin-right:5px;
+}
+
+input#email.form-control{
+    width:340px;
+    margin-left:5px;
+}
+
 input#comment.form-control{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-top:15px;
     padding-bottom:100px;
     padding-right:215px;
+    width:705px;
 
 }
 
 button.btn.btn-xs{
-   margin-left:320px;
+   margin-left:650px;
+   margin-bottom:20px;
 }
 
 /*Footer*/
