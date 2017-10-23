@@ -23,6 +23,7 @@ nav#navvy.navbar.navbar-static-top{
     color:white;
     background-color: #33334D;
 }
+
 #navvy a{
     color: white;
 }
@@ -32,13 +33,14 @@ nav#navvy.navbar.navbar-static-top{
 
 
 /*Button*/
+
 button.navbar-toggle {
-    border: 1px solid #33334D;
-}
-span.icon-bar {
-    border:1px solid #33334D;
+    border: 1px solid #FFF6F0;
 }
 
+span.icon-bar {
+    border: 1px solid #FFF6F0;
+}
 
 /*Jumbotron*/
 
@@ -87,6 +89,7 @@ div.mainsec.row{
     background-color:#33334D;
     color:white;
 } 
+
 /*location one*/
 
 #row3 {
@@ -99,7 +102,7 @@ div.mainsec.row{
 #snowyMountain {
     height:215px;
     width:330px;
-    margin-left: 0px;               /*make this a class too*/
+    margin-left: 0px;               
     margin-bottom: 20px;
 
 }
@@ -127,10 +130,9 @@ div#row4.row{
 img#modHouse{
     height:175px;
     width:300px;
-    margin-left: 100px;                /*make this a class too*/
+    margin-left: 100px;                
     margin-bottom: 20px;
 }
-
 
 
 /*Location 3*/
@@ -144,7 +146,7 @@ img#modHouse{
 #vineyard {
     height: 215px;
     width: 330px;
-    margin-left: 0px;     /*make this a class too*/
+    margin-left: 0px;     
     margin-bottom: 20px;
 }
 
@@ -152,7 +154,7 @@ img#modHouse{
 
 #row6{
     text-align:center;
-    background-color:#33334D;     /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
+    background-color:#33334D;     
     color:white;
 }
 
@@ -257,14 +259,13 @@ div#veryStony.jumbotron {
 
 #row10{
     text-align:center;
-    background-color:#33334D;   /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
+    background-color:#33334D;   
     color:white;
 }
 
     /*The Carousel itself*/
 
 div.col-xs-12.col-sm-12.col-md-12.col-lg-12{
-    /*padding-top:70px;*/
     padding-left:0px;
     padding-right:0px;
     text-align:center;
@@ -284,7 +285,6 @@ ol.carousel-indicators{
     margin-left:0px;
     margin-bottom:0px;
     bottom:0px;
-    /*left:665px;*/
     
 }
 
@@ -301,7 +301,7 @@ div#myCarousel.carousel.slide{
 
 #row12{
     text-align:center;
-    background-color:#33334D;   /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
+    background-color:#33334D;  
     color:white;
 }
 
@@ -329,12 +329,10 @@ input#comment.form-control{
     padding-top:15px;
     padding-bottom:100px;
     padding-right:215px;
-    /*width:705px;*/
 
 }
 
 button.btn.btn-xs{
-   /*margin-left:650px;*/
    margin-bottom:20px;
 }
 
@@ -342,10 +340,10 @@ button.btn.btn-xs{
 
 footer {
     text-align:center;
-    background-color:#33334D;   /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
+    background-color:#33334D;  
     color:white;
 }
 
-p,h1,h3{
+p,h1,h3,h4,h5,h6{
     font-family:'Saira Extra Condensed', sans-serif;
 }
