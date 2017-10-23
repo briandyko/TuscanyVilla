@@ -13,19 +13,21 @@
 </head>
 <body>
 
-    <div class="container-fluid">   
+    <!--NAVBAR-->
+
+    <div class="container-fluid">
         <nav class="navbar navbar-static-top" id="navvy">
             <div class="row" id="navRow">
-                <!--<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">--    was fine when just col-md-12 set up, but adding all of them makes logo go to right>
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>  <!--these are the slices of the hamburger, btw.-->
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <p>Logo</p>
+                <div class="col-md-12">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>  <!--these are the slices of the hamburger, btw.-->
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <p>Logo</p>
                     <div id="navbar" class="navbar-collapse collapse" style="float:right">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#locations">LOCATIONS</a></li>
@@ -34,34 +36,32 @@
                             <li><a href="#contact">CONTACT</a></li>
                         </ul>
                     </div>
-                <!--</div>-->
+                </div>
             </div>
         </nav>
 
         <!--FIRST JUMBOTRON-->
 
-        
-            <div class="row" id="mainsec">
-                <div class="col-xs-9 col-sm-6 col-md-9 col-lg-9" id="mainseccol1">
-                    <div class="jumbotron guesthouse">
-                        <!--need to turn mainSec into a different thing in the CSS. This is where I would put the background image, in the CSS. The HTML portion is the top part, and therefor the Text-->
-                        <h1>Tuscany Villa</h1>
-                        <h3>We specialize in relaxation</h3>
-                    </div>
+
+        <div class="row" id="mainsec">
+            <div class="col-xs-9 col-sm-6 col-md-9 col-lg-9" id="mainseccol1">
+                <div class="jumbotron guesthouse">
+                    <!--need to turn mainSec into a different thing in the CSS. This is where I would put the background image, in the CSS. The HTML portion is the top part, and therefor the Text-->
+                    <h1>Tuscany Villa</h1>
+                    <h3>We specialize in relaxation</h3>                  
+                   </div>                
                 </div>
-
-                <div class="col-xs-3 col-sm-6 col-md-3 col-lg-3" id="heightCorrect">
-
-                </div>
-
+            <div class="col-xs-3 col-sm-6 col-md-3 col-lg-3" id="heightCorrect">
             </div>
+        </div>
 
         <!--Bottom Row-->
+
         <div class="row" id="row2">
-            <!--<div class="col-md-12">-->
-                <p>LOCATIONS</p>
-                <p>Some places for you to go</p>
-            <!--</div>-->
+            <div class="col-xs-12 col-xm-12 col-md-12 col-lg-12">
+                <h1>LOCATIONS</h1>
+                <h3>Some places for you to go</h3>
+            </div>
 
         </div>
 
@@ -69,8 +69,8 @@
 
         <div class="row" id="row3">
             <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
-                <p>Location #1</p>
-                <p class="tinyLocations">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin augue nisl, euismod sit amet accumsan et, auctor non nisi. Proin ut tellus egestas mi blandit gravida. Duis convallis laoreet odio vel mattis. Fusce et mi sit amet justo condimentum scelerisque. In vitae nisl vel mauris tristique feugiat. Morbi cursus arcu vel pretium ornare. Vestibulum nec felis libero. Donec ultricies urna vel nibh mollis scelerisque.</p>
+                <h4>Location #1</h4>
+                <h6 class="tinyLocations">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin augue nisl, euismod sit amet accumsan et, auctor non nisi. Proin ut tellus egestas mi blandit gravida. Duis convallis laoreet odio vel mattis. Fusce et mi sit amet justo condimentum scelerisque. In vitae nisl vel mauris tristique feugiat. Morbi cursus arcu vel pretium ornare. Vestibulum nec felis libero. Donec ultricies urna vel nibh mollis scelerisque.</h6>
                 <p><a class="btn btn-primary btn-sm" href="#" role="button">Reserve Now!</a></p>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
@@ -86,8 +86,8 @@
                 <img src="modern-villa-geometric.jpeg" id="modHouse" />
             </div>
             <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
-                <p>Location #2</p>
-                <p class="tinyLocations">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin augue nisl, euismod sit amet accumsan et, auctor non nisi. Proin ut tellus egestas mi blandit gravida. Duis convallis laoreet odio vel mattis. Fusce et mi sit amet justo condimentum scelerisque. In vitae nisl vel mauris tristique feugiat. Morbi cursus arcu vel pretium ornare. Vestibulum nec felis libero. Donec ultricies urna vel nibh mollis scelerisque.</p>
+                <h4>Location #2</h4>
+                <h6 class="tinyLocations">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin augue nisl, euismod sit amet accumsan et, auctor non nisi. Proin ut tellus egestas mi blandit gravida. Duis convallis laoreet odio vel mattis. Fusce et mi sit amet justo condimentum scelerisque. In vitae nisl vel mauris tristique feugiat. Morbi cursus arcu vel pretium ornare. Vestibulum nec felis libero. Donec ultricies urna vel nibh mollis scelerisque.</h6>
                 <p><a class="btn btn-primary btn-sm" href="#" role="button">Check It Out!</a></p>
             </div>
 
@@ -96,8 +96,8 @@
         <!--Location 3-->
         <div class="row" id="row5">
             <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
-                <p>Location #3</p>
-                <p class="tinyLocations">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin augue nisl, euismod sit amet accumsan et, auctor non nisi. Proin ut tellus egestas mi blandit gravida. Duis convallis laoreet odio vel mattis. Fusce et mi sit amet justo condimentum scelerisque. In vitae nisl vel mauris tristique feugiat. Morbi cursus arcu vel pretium ornare. Vestibulum nec felis libero. Donec ultricies urna vel nibh mollis scelerisque.</p>
+                <h4>Location #3</h4>
+                <h6 class="tinyLocations">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin augue nisl, euismod sit amet accumsan et, auctor non nisi. Proin ut tellus egestas mi blandit gravida. Duis convallis laoreet odio vel mattis. Fusce et mi sit amet justo condimentum scelerisque. In vitae nisl vel mauris tristique feugiat. Morbi cursus arcu vel pretium ornare. Vestibulum nec felis libero. Donec ultricies urna vel nibh mollis scelerisque.</h6>
                 <p><a class="btn btn-primary btn-sm" href="#" role="button">Join Us!</a></p>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
@@ -109,32 +109,32 @@
         <!--Ammenities Header-->
 
         <div class="row" id="row6">
-            <div class="col-md-12">
-                <p>AMMENITIES</p>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1>AMMENITIES</h1>
+                <h3>Some stuff for you to enjoy</h3>
             </div>
 
         </div>
 
         <!--Ammmeities Main-->
-
         <!--1st three-paneled row-->
+
         <div class="row" id="row7">
-            <!--Daniel's advice: switch div heights and widths-->     <!--don't necessarily need jumbotron. can set  background image as the pic and then just put text over that as long as in same div-->
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="jumbotron" id="patioPool">
-                    <p>RECEPTIONS</p>
+                    <h3 class="seeThru">RECEPTIONS</h3>
                 </div>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <p>A VILLA FOR EVERY OCCASION</p>
+                <h3>A VILLA FOR EVERY OCCASION</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin augue nisl, euismod sit amet accumsan et, auctor non nisi. Proin ut tellus egestas mi blandit gravida. Duis convallis laoreet odio vel mattis.</p>
                 <p><a class="btn btn-primary btn-sm" href="#" role="button">Check It Out!</a></p>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="jumbotron" id="cloudyPool">
-                    <p>RELAX BY THE POOL</p>
+                    <h3 class="seeThru">RELAX BY THE POOL</h3>
                 </div>
 
             </div>
@@ -146,19 +146,19 @@
 
         <div class="row" id="row8">
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <p>WHAT SETS US APART</p>
+                <h3>WHAT SETS US APART</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin augue nisl, euismod sit amet accumsan et, auctor non nisi. Proin ut tellus egestas mi blandit gravida. Duis convallis laoreet odio vel mattis.</p>                <p><a class="btn btn-primary btn-sm" href="#" role="button">Check It Out!</a></p>
             </div>
 
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="jumbotron" id="manyLamps">
-                    <p>FEELS LIKE HOME</p>
+                    <h3 class="seeThru">FEELS LIKE HOME</h3>
                 </div>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <p>TALK TO STAFF</p>
+                <h3>TALK TO STAFF</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin augue nisl, euismod sit amet accumsan et, auctor non nisi. Proin ut tellus egestas mi blandit gravida. Duis convallis laoreet odio vel mattis.</p>                <p><a class="btn btn-primary btn-sm" href="#" role="button">Check It Out!</a></p>
             </div>
         </div>
@@ -168,18 +168,18 @@
         <div class="row" id="row9">
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="jumbotron" id="lovelyOutdoor">
-                    <p>ENJOY THE VIEWS</p>
+                    <h3 class="seeThru">ENJOY THE VIEWS</h3>
                 </div>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <p>BOOK YOUR VILLA</p>
+                <h3>BOOK YOUR VILLA</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin augue nisl, euismod sit amet accumsan et, auctor non nisi. Proin ut tellus egestas mi blandit gravida. Duis convallis laoreet odio vel mattis.</p>                <p><a class="btn btn-primary btn-sm" href="#" role="button">Check It Out!</a></p>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="jumbotron" id="veryStony">
-                    <p>PRIVATE DINING</p>
+                    <h3 class="seeThru">PRIVATE DINING</h3>
                 </div>
 
             </div>
@@ -189,9 +189,9 @@
         <!--Carousel Review Header-->
 
         <div class="row" id="row10">
-            <div class="col-md-12">
-                <p>REVIEWS</p>
-                <p>What our customers say</p>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1>REVIEWS</h1>
+                <h3>What our customers say</h3>
             </div>
 
         </div>
@@ -246,8 +246,8 @@
 
         <div class="row" id="row12">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <p>CONTACT</p>
-                <p>We've got the answers</p>
+                <h1>CONTACT</h1>
+                <h3>We've got the answers</h3>
             </div>
 
         </div>
@@ -256,7 +256,7 @@
 
 
         <div class="row" id="row13">
-            <div class="col-md-4">
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                 <p>Contact us and we'll get back to you within 24 hours.</p>
                 <div>
                     <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
@@ -272,7 +272,7 @@
                 </div>
             </div>
 
-            <div class="col-md-8">
+            <div class="col-xs-6 col-sm-6 col-md-8 col-md-8 col-lg-8">
                 <form class="form-inline">
                     <div class="form-group">
                         <label for="name"></label>
@@ -303,8 +303,8 @@
                 <div>
                     <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
                 </div>
-                <p>Created by: Brian Dyko</p>
-                <p>Not at all copyrighted</p>
+                <h5>Created by: Brian Dyko</h5>
+                <h5>Not at all copyrighted</h5>
             </footer>
 
         </div>

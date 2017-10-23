@@ -20,11 +20,11 @@ div#navRow.row{
 nav#navvy.navbar.navbar-static-top{
     margin-top: 0px;
     margin-bottom: 0px;
-    color:#FFF6F0;
-    background-color: #6A1525;
+    color:white;
+    background-color: #33334D;
 }
 #navvy a{
-    color: #FFF6F0;
+    color: white;
 }
 #navvy a:hover{
     background:none;
@@ -33,10 +33,10 @@ nav#navvy.navbar.navbar-static-top{
 
 /*Button*/
 button.navbar-toggle {
-    border: 1px solid #FFF6F0;
+    border: 1px solid #33334D;
 }
 span.icon-bar {
-    border:1px solid #FFF6F0;
+    border:1px solid #33334D;
 }
 
 
@@ -84,7 +84,7 @@ div.mainsec.row{
 
 #row2{
     text-align:center;
-    background-color:dimgrey;
+    background-color:#33334D;
     color:white;
 } 
 /*location one*/
@@ -105,8 +105,13 @@ div.mainsec.row{
 }
 
 .tinyLocations{
-    font-size:10px;
-   
+    font-size:10px; 
+}
+
+a.btn.btn-primary.btn-sm{
+    background-color:#33334D;
+    border-color:#33334D;
+    
 }
 
 /*Location 2*/
@@ -115,7 +120,7 @@ div#row4.row{
     padding-top:30px;
     padding-left:100px;
     padding-right:30px;
-    background-color:dimgrey;
+    background-color:#33334D;
     color:white;
 }
 
@@ -147,7 +152,7 @@ img#modHouse{
 
 #row6{
     text-align:center;
-    background-color:dimgrey;     /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
+    background-color:#33334D;     /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
     color:white;
 }
 
@@ -161,6 +166,13 @@ div#row7.row{
     padding-right:100px;
     margin-right:0px;
     margin-left:0px;
+    text-align:center;
+}
+
+.seeThru{
+    background-color:rgbA(51, 51, 77, 0.6);
+    color:white;
+    
 }
 
 #patioPool {
@@ -192,6 +204,7 @@ div#row8.row{
     padding-right:100px;
     margin-right:0px;
     margin-left:0px;
+    text-align:center;
 }
 
 #manyLamps {
@@ -213,6 +226,7 @@ div#row9.row{
     padding-bottom:30px;
     margin-right:0px;
     margin-left:0px;
+    text-align:center;
 }
 
 #lovelyOutdoor {
@@ -243,7 +257,7 @@ div#veryStony.jumbotron {
 
 #row10{
     text-align:center;
-    background-color:dimgrey;   /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
+    background-color:#33334D;   /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
     color:white;
 }
 
@@ -270,7 +284,7 @@ ol.carousel-indicators{
     margin-left:0px;
     margin-bottom:0px;
     bottom:0px;
-    left:665px;
+    /*left:665px;*/
     
 }
 
@@ -287,7 +301,7 @@ div#myCarousel.carousel.slide{
 
 #row12{
     text-align:center;
-    background-color:dimgrey;   /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
+    background-color:#33334D;   /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
     color:white;
 }
 
@@ -315,12 +329,12 @@ input#comment.form-control{
     padding-top:15px;
     padding-bottom:100px;
     padding-right:215px;
-    width:705px;
+    /*width:705px;*/
 
 }
 
 button.btn.btn-xs{
-   margin-left:650px;
+   /*margin-left:650px;*/
    margin-bottom:20px;
 }
 
@@ -328,7 +342,7 @@ button.btn.btn-xs{
 
 footer {
     text-align:center;
-    background-color:dimgrey;   /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
+    background-color:#33334D;   /*Maybe I should turn all of these bars into a class that goes throughout instead of separate id's'*/
     color:white;
 }
 
